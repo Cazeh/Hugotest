@@ -1,8 +1,8 @@
-baseURL = ""
+baseURL = "http://example.org/"
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
-title = "Arietis"
+title = "Portio"
 # Main Menu
 [[menu.main]]
 name = "Home"
@@ -17,21 +17,25 @@ name = "Service"
 url = "#service"
 weight = 3
 [[menu.main]]
-name = "CV"
-url = "#resume"
+name = "Work"
+url = "#portfolio"
 weight = 4
+[[menu.main]]
+name = "Resume"
+url = "#resume"
+weight = 5
 [[menu.main]]
 name = "Skills"
 url = "#skills"
-weight = 5
+weight = 6
 [[menu.main]]
 name = "Blog"
 url = "#blog"
-weight = 6
+weight = 7
 [[menu.main]]
 name = "Contact"
 url = "#contact"
-weight = 7
+weight = 8
 
 # Sitemap Menu
 [[menu.sitemap]]
@@ -39,32 +43,32 @@ name = "About me"
 url = "about"
 weight = 1
 [[menu.sitemap]]
-name = "FAQ"
+name = "Frequently Ask Question"
 url = "#"
 weight = 2
 [[menu.sitemap]]
-name = "Impressum"
+name = "Privacy & Policy"
 url = "#"
 weight = 3
 [[menu.sitemap]]
-name = "Latest"
+name = "Latest Article"
 url = "#"
 weight = 4
 
 [params]
 blogPageURL = "blog"
 contactLink = "contact"
-copyright = "© Arietis 2022"
-footerLogo = "images/site-navigation/logo.png"
+copyright = "All right reserved copyright © Portio 2020"
+footerLogo = "images/contact/widget-logo.png"
 formspreeURL = "YOUR FORMSPREE URL"
 googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
 logo = "images/site-navigation/logo.png"
 
 [params.address]
-address = "Munich"
-email = ""
-openingHours = "24/7"
-phone = "+49015226931692"
+address = "23 Khan Niketon, Grand Street, NYK."
+email = "hello@example.com"
+openingHours = "Open from 10am to 6pm (close at 5pm Sundays)"
+phone = "+(448) 833 5272 332"
 
 [params.map]
 APIkey = "YOUR GOOGLE MAP API"
